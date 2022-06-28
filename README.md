@@ -29,4 +29,4 @@
 
 # 免责声明：
 
-项目遵循**MIT LICENSE**协议。
+本项目遵循**MIT LICENSE**协议。
