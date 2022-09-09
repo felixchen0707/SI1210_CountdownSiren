@@ -31,16 +31,16 @@ int led=13;//灯亮表示消毒开始，实际没有这部分，只是便于展�
 int buzzer=11;//蜂鸣器接口
 int relay=12;//继电器使用这个接口，当工作开始时，该口给出低电平
 int addTimeButton=0;//增加时间按钮相关设置
-int addTimeButtonState=HIGH;
+int addTimeButtonState=LOW;
 long long int lasttimechange1=0;
 bool iskeychange1=false;
-int lastbutton1state=HIGH;
+int lastbutton1state=LOW;
 
 int startButton=1;//开始按钮相关设置
-int button2state=HIGH;
+int button2state=LOW;
 long long int lasttimechange2=0;
 bool iskeychange2=false;
-int lastbutton2state=HIGH;
+int lastbutton2state=LOW;
 
 int digit1=10;//十位数数码管接线位置
 int digit2=9;//个位数数码管接线位置
