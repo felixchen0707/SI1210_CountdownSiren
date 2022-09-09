@@ -100,8 +100,8 @@ void setup()
     pinMode(i,OUTPUT);
   }//初始化引脚，这些是七段分别对应的引脚（不使用小数点）
   
-  pinMode(addTimeButton,INPUT_PULLUP);//初始化时间按钮
-  pinMode(startButton,INPUT_PULLUP);//初始化开始按钮
+  pinMode(addTimeButton,INPUT);//初始化时间按钮
+  pinMode(startButton,INPUT);//初始化开始按钮
   pinMode(led,OUTPUT);//用于展示的led口
   pinMode(buzzer,OUTPUT);//蜂鸣器接口初始化
   pinMode(relay,OUTPUT);//继电器接口初始化
